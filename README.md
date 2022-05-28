@@ -4,7 +4,7 @@ System Needs: ubuntu 18 on host machine, adrv9009zu11eg, https://github.com/anal
 
 File structure: <br />
 Documentations, presentations: Docs <br />
-Petalinux Project: adrv9009-zu9EG11 <br />
+Petalinux Project: adrv9009-zu11eg <br />
 Work with Filter Wizard: Filter_Wizard  <br />
 Work on gnss-sdr, manily adrv9009zu11eg signal source adapter: gnss-sdr  <br />
 Application to monitor the receiver: gnss-sdr-monitor  <br />
