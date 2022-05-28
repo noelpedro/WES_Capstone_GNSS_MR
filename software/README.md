@@ -1,6 +1,7 @@
 Build Project: </br>
+`cd gnss-sdr` </br>
 `git checkout adrv9009_signal_source` </br>
-`cd gnss-sdr/buid && cmake -DENABLE_ADRV9009=ON -DENABLE_FPGA=ON ../ && make` </br>
+`cd buid && cmake -DENABLE_ADRV9009=ON -DENABLE_FPGA=ON ../ && make` </br>
 
 
 
