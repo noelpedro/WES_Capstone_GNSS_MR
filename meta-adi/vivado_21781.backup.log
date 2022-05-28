@@ -1,0 +1,1287 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar 17 16:02:42 2022
+# Process ID: 21781
+# Current directory: /home/badger/work/Capstone/meta-adi
+# Command line: vivado
+# Log file: /home/badger/work/Capstone/meta-adi/vivado.log
+# Journal file: /home/badger/work/Capstone/meta-adi/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/ip_repo/multicorrelator_resampler_3_1/multicorrelator_resampler_3_1_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/ip_repo/multicorrelator_resampler_5_1_AXI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/ip_repo/multicorrelator_resampler_S00_AXI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/ip_repo/Acquisition_AXI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/hdl/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/badger/Downloads/Vivado/2019.1/data/ip'.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+CRITICAL WARNING: [Common 17-1649] The Vivado message database '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/synth_1/vivado.pb' contains 21674 messages. Restoring all messages from this message database will impact Vivado performance, so only WARNING, CRITICAL WARNING, and ERROR messages will be restored. To restore all messages from this file use the tcl command 'set_param messaging.loadPbLimit 21675' and re-open the project.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 6664.668 ; gain = 257.363 ; free physical = 6056 ; free virtual = 14286
+update_compile_order -fileset sources_1
+open_bd_design {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd}
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.3 - sys_ps8
+WARNING: [BD 41-176] The physical port 'M_AXI_HPM0_LPD_aximm_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'M_AXI_HPM0_LPD_aximm_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_HP0_FPD_aximm_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_HP0_FPD_aximm_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_HP1_FPD_aximm_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_HP1_FPD_aximm_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_HP2_FPD_aximm_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_HP2_FPD_aximm_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_HP3_FPD_aximm_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_HP3_FPD_aximm_rd_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - sys_rstgen
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - spi0_csn_concat
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - VCC_1
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - GND_1
+Adding component instance block -- analog.com:user:axi_sysid:1.0 - axi_sysid_0
+Adding component instance block -- analog.com:user:sysid_rom:1.0 - rom_sys_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - sys_concat_intc_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - sys_concat_intc_1
+Adding component instance block -- xilinx.com:ip:ddr4:2.2 - ddr4_1
+Adding component instance block -- analog.com:user:axi_dacfifo:1.0 - axi_tx_fifo
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - ddr4_1_rstgen
+Adding component instance block -- analog.com:user:axi_adxcvr:1.0 - axi_adrv9009_som_tx_xcvr
+Adding component instance block -- analog.com:user:axi_jesd204_tx:1.0 - tx_axi
+Adding component instance block -- analog.com:user:jesd204_tx:1.0 - tx
+Adding component instance block -- analog.com:user:util_upack2:1.0 - util_som_tx_upack
+Adding component instance block -- analog.com:user:ad_ip_jesd204_tpl_dac:1.0 - dac_tpl_core
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - data_concat0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_7
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_7
+Adding component instance block -- analog.com:user:axi_dmac:1.0 - axi_adrv9009_som_tx_dma
+Adding component instance block -- analog.com:user:axi_adxcvr:1.0 - axi_adrv9009_som_rx_xcvr
+Adding component instance block -- analog.com:user:axi_jesd204_rx:1.0 - rx_axi
+Adding component instance block -- analog.com:user:jesd204_rx:1.0 - rx
+Adding component instance block -- analog.com:user:util_cpack2:1.0 - util_som_rx_cpack
+Adding component instance block -- analog.com:user:ad_ip_jesd204_tpl_adc:1.0 - adc_tpl_core
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_7
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_7
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_7
+Adding component instance block -- analog.com:user:axi_dmac:1.0 - axi_adrv9009_som_rx_dma
+Adding component instance block -- analog.com:user:axi_adxcvr:1.0 - axi_adrv9009_som_obs_xcvr
+Adding component instance block -- analog.com:user:axi_jesd204_rx:1.0 - rx_axi
+Adding component instance block -- analog.com:user:jesd204_rx:1.0 - rx
+Adding component instance block -- analog.com:user:util_cpack2:1.0 - util_som_obs_cpack
+Adding component instance block -- analog.com:user:ad_ip_jesd204_tpl_adc:1.0 - adc_tpl_core
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - data_slice_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - enable_slice_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - valid_slice_3
+Adding component instance block -- analog.com:user:axi_dmac:1.0 - axi_adrv9009_som_obs_dma
+Adding component instance block -- analog.com:user:util_adxcvr:1.0 - util_adrv9009_som_xcvr
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - core_clk_a_rstgen
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - core_clk_b_rstgen
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - dma_clk_wiz
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - sys_dma_rstgen
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_cpu_interconnect
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_1
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_2
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - axi_hp0_interconnect
+Adding component instance block -- analog.com:user:axi_i2s_adi:1.0 - axi_i2s_adi
+Adding component instance block -- analog.com:user:axi_dmac:1.0 - i2s_tx_dma
+Adding component instance block -- analog.com:user:axi_dmac:1.0 - i2s_rx_dma
+Adding component instance block -- analog.com:user:axi_fan_control:1.0 - axi_fan_control_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - const_gnd_0
+Adding component instance block -- user.org:user:axi_sample_counter:1.0 - axi_sample_counter_0
+Adding component instance block -- user.org:user:axi_switch:1.0 - axi_switch_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - constant_high
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - switch_data_concat
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - switch_valid_concat
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - switch_mux_po_fifo
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - trk_data_fifo
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - acq_data_fifo
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_l1_data_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_l5_data_slice
+Adding component instance block -- user.org:user:Acquisition_AXI:1.0 - Acquisition_AXI_0
+Adding component instance block -- user.org:user:axis_switch_mux:1.0 - axis_switch_mux_0
+Adding component instance block -- xilinx.com:ip:fir_compiler:7.2 - fir_downsample_dec22
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - rx1_rx2_8bit_concat
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_7
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - axi_intc_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - L1_trk_data
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - L5_trk_data
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - l1_data16_real
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - l1_data16_imag
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - l1_data8_real
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - l1_data8_imag
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - trk_data_concat
+Adding component instance block -- user.org:user:multicorrelator_resampler_S00_AXI:1.0 - multicorrelator_resa_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - trk_results_cocnat
+Adding component instance block -- user.org:user:track_correlator_gps_l1:1.0 - track_correlator_gps_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - stop_trk_slice
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - trk_flags_concat
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - interp_L_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - trk_sample_count_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - codephase_rate_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - phase_rate_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - start_trk_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_iL_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - interp_E_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_iE_slice
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - trk_cfg_concat
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rem_carr_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_idx_E_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - trk_sample_count_lsw_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - trk_sample_count_msw_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - codephase_step_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - clear_accum_fifo
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - start_flag_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - trk_nsamples_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_qL_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - interp_P_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_idx_P_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - phase_step_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_iP_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - ca_code_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_idx_L_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_qP_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - drop_samples_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - trk_cfg_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - codelength_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - stop_tracking_valid_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_delay_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_qE_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - trk_flags_fifo
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - drop_samples_valid_fifo
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - trk_results_fifo
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - acq_sample_count_out_concat
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_nsamples_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - acq_sample_cnt_out_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_vector_length_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_scnd_peak_out_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_smpl_cnt_out_lsw_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_first_peak_out_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_exclude_limit_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_reset_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_num_sweeps_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - acq_launch_valid_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_launch_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - acq_results_read_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_doppler_step_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - acq_fft_gnss_code_fifo
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - acq_results_concat
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_doppler_min_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_vector_length_log2_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_tot_blk_exp_out_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_smpl_cnt_out_msw_slice
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_max_index_out_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - acq_fft_gnss_clear_mem_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_tot_blk_exp_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - acq_config_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_doppler_indx_out_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - acq_control_fifo
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - acq_config_concat
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_select_queue_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - acq_results_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - acq_stop_slice
+Adding component instance block -- user.org:user:acquisition_axis:1.0 - acquisition_axis_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - obs_stop_irq_fifo
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - obs_interval_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - obs_sample_cntr_msw_slice
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - obs_sample_cnt_fifo
+Adding component instance block -- user.org:user:sample_counter_seconds:1.0 - sample_counter_secon_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - abs_irq_ready_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - obs_sample_cntr_lsw_slice
+Adding component instance block -- user.org:user:sample_counter:1.0 - sample_counter_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - trk_drop_samples_slice_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - galileo_results_concat
+Adding component instance block -- user.org:user:galileo_e1_correlator:1.0 - galileo_e1_correlator_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_interp_Pilot_slice_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_qL_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_qVL_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_iVE_slice_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - clear_accum_fifo_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_iE_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_index_L_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_iPilot_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - trk_stop_trk_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_iP_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - phase_rate_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - phase_step_rad_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_interp_L_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_index_E_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_index_VE_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - nsamples_minus_1_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rem_carr_phase_rad_slice_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - trk_flags_fifo_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - stop_trk_valid_fifo_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - trk_e1_cfg_concat
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - e1a_code_fifo
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - codelength_minus_1_slice_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - trk_flags_concat_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - trk_init_counter_concat_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - trk_start_flag_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_interp_VL_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_index_pilot_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - e1_sample_cntr_lsw_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_qVE_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_qP_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_iVL_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_interp_P_slice_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - trk_e1_results_fifo_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_iL_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_qE_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - codephase_step_slice_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - drop_sample_valid_fifo_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_index_P_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_interp_VE_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_sample_slice_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - trk_e1_results_fifo_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - e1_sample_cntr_msw_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_interp_E_slice_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - start_flag_fifo_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - init_index_VL_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - codephase_rate_slice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - o_qPilot_slice_0
+Adding component instance block -- user.org:user:multicorrelator_resampler_5_1_AXI:1.0 - multicorrelator_resa_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_adrv9009_som_tx_xcvr/up_pll_rst(rst) and /util_adrv9009_som_xcvr/up_qpll_rst_0(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_adrv9009_som_tx_xcvr/up_pll_rst(rst) and /util_adrv9009_som_xcvr/up_qpll_rst_4(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_adrv9009_som_rx_xcvr/up_pll_rst(rst) and /util_adrv9009_som_xcvr/up_cpll_rst_0(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_adrv9009_som_rx_xcvr/up_pll_rst(rst) and /util_adrv9009_som_xcvr/up_cpll_rst_1(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_adrv9009_som_rx_xcvr/up_pll_rst(rst) and /util_adrv9009_som_xcvr/up_cpll_rst_4(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_adrv9009_som_rx_xcvr/up_pll_rst(rst) and /util_adrv9009_som_xcvr/up_cpll_rst_5(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_adrv9009_som_obs_xcvr/up_pll_rst(rst) and /util_adrv9009_som_xcvr/up_cpll_rst_2(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_adrv9009_som_obs_xcvr/up_pll_rst(rst) and /util_adrv9009_som_xcvr/up_cpll_rst_3(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_adrv9009_som_obs_xcvr/up_pll_rst(rst) and /util_adrv9009_som_xcvr/up_cpll_rst_6(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_adrv9009_som_obs_xcvr/up_pll_rst(rst) and /util_adrv9009_som_xcvr/up_cpll_rst_7(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /axi_intc_0/irq(undef) and /sys_ps8/pl_ps_irq0(intr)
+Successfully read diagram <system> from BD file </home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd>
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : </home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/tracking_gps_l1_0/trk_flags_fifo/s_axis_tdata'(8) to net 'trk_flags_concat_dout'(3) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/acquisition_0/acq_control_fifo/s_axis_tdata'(8) to net 'Acquisition_AXI_0_acquisition_control'(3) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Galileo_e1_trk/trk_flags_fifo_0/s_axis_tdata'(8) to net 'trk_flags_concat_0_dout'(3) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/switch_mux_po_fifo/s_axis_tdata'(8) to net 'axi_switch_0_switch_position'(2) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/axis_switch_mux_0/position'(2) to net 'axis_data_fifo_1_m_axis_tdata'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/synth/system.v
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/tracking_gps_l1_0/trk_flags_fifo/s_axis_tdata'(8) to net 'trk_flags_concat_dout'(3) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/acquisition_0/acq_control_fifo/s_axis_tdata'(8) to net 'Acquisition_AXI_0_acquisition_control'(3) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Galileo_e1_trk/trk_flags_fifo_0/s_axis_tdata'(8) to net 'trk_flags_concat_0_dout'(3) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/switch_mux_po_fifo/s_axis_tdata'(8) to net 'axi_switch_0_switch_position'(2) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/axis_switch_mux_0/position'(2) to net 'axis_data_fifo_1_m_axis_tdata'(8) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/sim/system.v
+VHDL Output written to : /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/hdl/system_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_ps8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_rstgen .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block spi0_csn_concat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block VCC_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block GND_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_sysid_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rom_sys_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_concat_intc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_concat_intc_1 .
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'bd_124c' - hence not re-generating.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ddr4_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_tx_fifo .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ddr4_1_rstgen .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_tx_xcvr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_tx_jesd/tx_axi .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_tx_jesd/tx .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_som_tx_upack .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/dac_tpl_core .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/data_concat0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/enable_slice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/valid_slice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/enable_slice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/valid_slice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/enable_slice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/valid_slice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/enable_slice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/valid_slice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/enable_slice_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/valid_slice_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/enable_slice_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/valid_slice_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/enable_slice_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/valid_slice_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/enable_slice_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tx_adrv9009_som_tpl_core/valid_slice_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_tx_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_rx_xcvr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_rx_jesd/rx_axi .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_rx_jesd/rx .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_som_rx_cpack .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/adc_tpl_core .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/data_slice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/enable_slice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/valid_slice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/data_slice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/enable_slice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/valid_slice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/data_slice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/enable_slice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/valid_slice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/data_slice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/enable_slice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/valid_slice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/data_slice_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/enable_slice_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/valid_slice_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/data_slice_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/enable_slice_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/valid_slice_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/data_slice_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/enable_slice_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/valid_slice_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/data_slice_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/enable_slice_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rx_adrv9009_som_tpl_core/valid_slice_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_rx_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_obs_xcvr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_obs_jesd/rx_axi .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_obs_jesd/rx .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_som_obs_cpack .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/adc_tpl_core .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/data_slice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/enable_slice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/valid_slice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/data_slice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/enable_slice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/valid_slice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/data_slice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/enable_slice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/valid_slice_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/data_slice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/enable_slice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block obs_adrv9009_som_tpl_core/valid_slice_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_adrv9009_som_obs_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_adrv9009_som_xcvr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block core_clk_a_rstgen .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block core_clk_b_rstgen .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dma_clk_wiz .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_dma_rstgen .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_cpu_interconnect/xbar .
+Exporting to file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ip/system_axi_hp0_interconnect_0/bd_0/hw_handoff/system_axi_hp0_interconnect_0.hwh
+Generated Block Design Tcl file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ip/system_axi_hp0_interconnect_0/bd_0/hw_handoff/system_axi_hp0_interconnect_0_bd.tcl
+Generated Hardware Definition File /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ip/system_axi_hp0_interconnect_0/bd_0/synth/system_axi_hp0_interconnect_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_hp0_interconnect .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_i2s_adi .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block i2s_tx_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block i2s_rx_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_fan_control_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block const_gnd_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Acquisition_AXI_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_sample_counter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_switch_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_switch_mux_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block observables_counter_0/sample_counter_0 .
+INFO: [Common 17-14] Message 'BD 41-1029' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc'
+Exporting to file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/hw_handoff/system.hwh
+Generated Block Design Tcl file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/synth/system.hwdef
+[Thu Mar 17 16:16:50 2022] Launched synth_1...
+Run output will be captured here: /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/synth_1/runme.log
+[Thu Mar 17 16:16:50 2022] Launched impl_1...
+Run output will be captured here: /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 10764.637 ; gain = 0.000 ; free physical = 6097 ; free virtual = 13931
+CRITICAL WARNING: [Common 17-1649] The Vivado message database '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/synth_1/vivado.pb' contains 21677 messages. Restoring all messages from this message database will impact Vivado performance, so only WARNING, CRITICAL WARNING, and ERROR messages will be restored. To restore all messages from this file use the tcl command 'set_param messaging.loadPbLimit 21678' and re-open the project.
+startgroup
+create_bd_cell -type ip -vlnv user.org:user:multicorrelator_resampler_3_1:1.0 multicorrelator_resa_2
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/sys_ps8/pl_clk0 (99 MHz)} Clk_slave {Auto} Clk_xbar {/sys_ps8/pl_clk0 (99 MHz)} Master {/sys_ps8/M_AXI_HPM0_LPD} Slave {/multicorrelator_resa_2/S00_AXI} intc_ip {/axi_cpu_interconnect} master_apm {0}}  [get_bd_intf_pins multicorrelator_resa_2/S00_AXI]
+Slave segment </multicorrelator_resa_2/S00_AXI/S00_AXI_reg> is being mapped into address space </sys_ps8/Data> at <0x8001_6000 [ 4K ]>
+disconnect_bd_net /GND_1_dout [get_bd_pins sys_concat_intc_0/In3]
+connect_bd_net [get_bd_pins sys_concat_intc_0/In3] [get_bd_pins multicorrelator_resa_2/irq]
+create_project L5_trk_correlator_axis /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis -part xczu11eg-ffvf1517-2-i
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/badger/Downloads/Vivado/2019.1/data/ip'.
+file mkdir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/new
+close [ open /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/new/L5_correlator_trk_AXIS.v w ]
+add_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/new/L5_correlator_trk_AXIS.v
+update_compile_order -fileset sources_1
+create_project L5_resampler /home/badger/work/Capstone/ip_repo/L5_resampler -part xczu11eg-ffvf1517-2-i
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/badger/Downloads/Vivado/2019.1/data/ip'.
+file mkdir /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1/new
+close [ open /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1/new/L5_Resampler_4.v w ]
+add_files /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1/new/L5_Resampler_4.v
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property  ip_repo_paths  /home/badger/work/Capstone/ip_repo/Accum_project [current_project]
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/Accum_project'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+create_ip -name track_accumulator -vendor user.org -library user -version 1.0 -module_name track_accumulator_1
+set_property -dict [list CONFIG.Component_Name {track_accumulator_1}] [get_ips track_accumulator_1]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'track_accumulator_1' to 'track_accumulator_1' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1/ip/track_accumulator_1/track_accumulator_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'track_accumulator_1'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1/ip/track_accumulator_1/track_accumulator_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'track_accumulator_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'track_accumulator_1'...
+catch { config_ip_cache -export [get_ips -all track_accumulator_1] }
+export_ip_user_files -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1/ip/track_accumulator_1/track_accumulator_1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1/ip/track_accumulator_1/track_accumulator_1.xci]
+launch_runs -jobs 12 track_accumulator_1_synth_1
+[Thu Mar 17 17:25:56 2022] Launched track_accumulator_1_synth_1...
+Run output will be captured here: /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.runs/track_accumulator_1_synth_1/runme.log
+export_simulation -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1/ip/track_accumulator_1/track_accumulator_1.xci] -directory /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.ip_user_files/sim_scripts -ip_user_files_dir /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.ip_user_files -ipstatic_source_dir /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.cache/compile_simlib/modelsim} {questa=/home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.cache/compile_simlib/questa} {ies=/home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.cache/compile_simlib/ies} {xcelium=/home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.cache/compile_simlib/xcelium} {vcs=/home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.cache/compile_simlib/vcs} {riviera=/home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+ipx::package_project -root_dir /home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1 -vendor user.org -library user -taxonomy /UserIP
+INFO: [IP_Flow 19-5107] Inferred bus interface 'i_ca_code' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'axis_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3158] Bus Interface 'i_ca_code': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3153] Bus Interface 'axis_aclk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::associate_bus_interfaces -busif i_ca_code -clock axis_aclk [ipx::current_core]
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'i_ca_code'.
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  {/home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1 /home/badger/work/Capstone/ip_repo/Accum_project} [current_project]
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/L5_resampler/L5_resampler.srcs/sources_1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/Accum_project'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+close_project
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name fifo_generator_3
+set_property -dict [list CONFIG.Component_Name {fifo_generator_3} CONFIG.Fifo_Implementation {Independent_Clocks_Block_RAM} CONFIG.Input_Data_Width {16} CONFIG.Input_Depth {32768} CONFIG.Output_Data_Width {16} CONFIG.Output_Depth {32768} CONFIG.Reset_Pin {false} CONFIG.Reset_Type {Asynchronous_Reset} CONFIG.Full_Flags_Reset_Value {0} CONFIG.Use_Dout_Reset {false} CONFIG.Valid_Flag {true} CONFIG.Overflow_Flag {true} CONFIG.Data_Count_Width {15} CONFIG.Write_Data_Count {true} CONFIG.Write_Data_Count_Width {15} CONFIG.Read_Data_Count_Width {15} CONFIG.Full_Threshold_Assert_Value {32765} CONFIG.Full_Threshold_Negate_Value {32764} CONFIG.Enable_Safety_Circuit {false}] [get_ips fifo_generator_3]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fifo_generator_3' to 'fifo_generator_3' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/fifo_generator_3/fifo_generator_3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_generator_3'...
+generate_target all [get_files  /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/fifo_generator_3/fifo_generator_3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_generator_3'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fifo_generator_3'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fifo_generator_3'...
+catch { config_ip_cache -export [get_ips -all fifo_generator_3] }
+export_ip_user_files -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/fifo_generator_3/fifo_generator_3.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/fifo_generator_3/fifo_generator_3.xci]
+launch_runs -jobs 12 fifo_generator_3_synth_1
+[Thu Mar 17 17:43:32 2022] Launched fifo_generator_3_synth_1...
+Run output will be captured here: /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.runs/fifo_generator_3_synth_1/runme.log
+export_simulation -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/fifo_generator_3/fifo_generator_3.xci] -directory /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/sim_scripts -ip_user_files_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files -ipstatic_source_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/modelsim} {questa=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/questa} {ies=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/ies} {xcelium=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/xcelium} {vcs=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/vcs} {riviera=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+create_ip -name axis_data_fifo -vendor xilinx.com -library ip -version 2.0 -module_name cross_clock_fifo3
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {3} CONFIG.FIFO_DEPTH {16} CONFIG.IS_ACLK_ASYNC {1} CONFIG.SYNCHRONIZATION_STAGES {2} CONFIG.Component_Name {cross_clock_fifo3}] [get_ips cross_clock_fifo3]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'cross_clock_fifo3' to 'cross_clock_fifo3' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/cross_clock_fifo3/cross_clock_fifo3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'cross_clock_fifo3'...
+generate_target all [get_files  /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/cross_clock_fifo3/cross_clock_fifo3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'cross_clock_fifo3'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'cross_clock_fifo3'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'cross_clock_fifo3'...
+catch { config_ip_cache -export [get_ips -all cross_clock_fifo3] }
+export_ip_user_files -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/cross_clock_fifo3/cross_clock_fifo3.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/cross_clock_fifo3/cross_clock_fifo3.xci]
+launch_runs -jobs 12 cross_clock_fifo3_synth_1
+[Thu Mar 17 17:45:18 2022] Launched cross_clock_fifo3_synth_1...
+Run output will be captured here: /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.runs/cross_clock_fifo3_synth_1/runme.log
+export_simulation -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/cross_clock_fifo3/cross_clock_fifo3.xci] -directory /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/sim_scripts -ip_user_files_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files -ipstatic_source_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/modelsim} {questa=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/questa} {ies=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/ies} {xcelium=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/xcelium} {vcs=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/vcs} {riviera=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property  ip_repo_paths  {/home/badger/work/Capstone/ip_repo/Accum_project /home/badger/work/Capstone/ip_repo/Carrier_Wipeoff_TRK /home/badger/work/Capstone/ip_repo/L5_resampler /home/badger/work/Capstone/ip_repo/sample_counter} [current_project]
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/Accum_project'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/Carrier_Wipeoff_TRK'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/L5_resampler'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/sample_counter'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+create_ip -name Carrier_Wipeoff_trk -vendor user.org -library user -version 1.0 -module_name Carrier_Wipeoff_trk_3
+set_property -dict [list CONFIG.Component_Name {Carrier_Wipeoff_trk_3}] [get_ips Carrier_Wipeoff_trk_3]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'Carrier_Wipeoff_trk_3' to 'Carrier_Wipeoff_trk_3' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/Carrier_Wipeoff_trk_3/Carrier_Wipeoff_trk_3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Carrier_Wipeoff_trk_3'...
+generate_target all [get_files  /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/Carrier_Wipeoff_trk_3/Carrier_Wipeoff_trk_3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Carrier_Wipeoff_trk_3'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Carrier_Wipeoff_trk_3'...
+catch { config_ip_cache -export [get_ips -all Carrier_Wipeoff_trk_3] }
+export_ip_user_files -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/Carrier_Wipeoff_trk_3/Carrier_Wipeoff_trk_3.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/Carrier_Wipeoff_trk_3/Carrier_Wipeoff_trk_3.xci]
+launch_runs -jobs 12 Carrier_Wipeoff_trk_3_synth_1
+[Thu Mar 17 17:48:07 2022] Launched Carrier_Wipeoff_trk_3_synth_1...
+Run output will be captured here: /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.runs/Carrier_Wipeoff_trk_3_synth_1/runme.log
+export_simulation -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/Carrier_Wipeoff_trk_3/Carrier_Wipeoff_trk_3.xci] -directory /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/sim_scripts -ip_user_files_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files -ipstatic_source_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/modelsim} {questa=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/questa} {ies=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/ies} {xcelium=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/xcelium} {vcs=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/vcs} {riviera=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+create_ip -name cmpy -vendor xilinx.com -library ip -version 6.0 -module_name mix_raw3
+set_property -dict [list CONFIG.Component_Name {mix_raw3} CONFIG.APortWidth {8} CONFIG.BPortWidth {8} CONFIG.RoundMode {Random_Rounding} CONFIG.OutputWidth {16}] [get_ips mix_raw3]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'mix_raw3' to 'mix_raw3' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/mix_raw3/mix_raw3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'mix_raw3'...
+generate_target all [get_files  /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/mix_raw3/mix_raw3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mix_raw3'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'mix_raw3'...
+INFO: [IP_Flow 19-1686] Generating 'C Simulation' target for IP 'mix_raw3'...
+INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'mix_raw3'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'mix_raw3'...
+catch { config_ip_cache -export [get_ips -all mix_raw3] }
+export_ip_user_files -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/mix_raw3/mix_raw3.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/mix_raw3/mix_raw3.xci]
+launch_runs -jobs 12 mix_raw3_synth_1
+[Thu Mar 17 17:49:20 2022] Launched mix_raw3_synth_1...
+Run output will be captured here: /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.runs/mix_raw3_synth_1/runme.log
+export_simulation -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/mix_raw3/mix_raw3.xci] -directory /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/sim_scripts -ip_user_files_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files -ipstatic_source_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/modelsim} {questa=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/questa} {ies=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/ies} {xcelium=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/xcelium} {vcs=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/vcs} {riviera=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+create_ip -name L5_Resampler_4 -vendor user.org -library user -version 1.0 -module_name L5_Resampler_TRK_0
+set_property -dict [list CONFIG.Component_Name {L5_Resampler_TRK_0}] [get_ips L5_Resampler_TRK_0]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'L5_Resampler_TRK_0' to 'L5_Resampler_TRK_0' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/L5_Resampler_TRK_0/L5_Resampler_TRK_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'L5_Resampler_TRK_0'...
+generate_target all [get_files  /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/L5_Resampler_TRK_0/L5_Resampler_TRK_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'L5_Resampler_TRK_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'L5_Resampler_TRK_0'...
+catch { config_ip_cache -export [get_ips -all L5_Resampler_TRK_0] }
+export_ip_user_files -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/L5_Resampler_TRK_0/L5_Resampler_TRK_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/L5_Resampler_TRK_0/L5_Resampler_TRK_0.xci]
+launch_runs -jobs 12 L5_Resampler_TRK_0_synth_1
+[Thu Mar 17 17:50:29 2022] Launched L5_Resampler_TRK_0_synth_1...
+Run output will be captured here: /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.runs/L5_Resampler_TRK_0_synth_1/runme.log
+export_simulation -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/L5_Resampler_TRK_0/L5_Resampler_TRK_0.xci] -directory /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/sim_scripts -ip_user_files_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files -ipstatic_source_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/modelsim} {questa=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/questa} {ies=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/ies} {xcelium=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/xcelium} {vcs=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/vcs} {riviera=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+create_ip -name sample_counter -vendor user.org -library user -version 1.0 -module_name sample_counter_4
+set_property -dict [list CONFIG.Component_Name {sample_counter_4}] [get_ips sample_counter_4]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'sample_counter_4' to 'sample_counter_4' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/sample_counter_4/sample_counter_4.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'sample_counter_4'...
+generate_target all [get_files  /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/sample_counter_4/sample_counter_4.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'sample_counter_4'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'sample_counter_4'...
+catch { config_ip_cache -export [get_ips -all sample_counter_4] }
+export_ip_user_files -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/sample_counter_4/sample_counter_4.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/sample_counter_4/sample_counter_4.xci]
+launch_runs -jobs 12 sample_counter_4_synth_1
+[Thu Mar 17 17:51:50 2022] Launched sample_counter_4_synth_1...
+Run output will be captured here: /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.runs/sample_counter_4_synth_1/runme.log
+export_simulation -of_objects [get_files /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1/ip/sample_counter_4/sample_counter_4.xci] -directory /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/sim_scripts -ip_user_files_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files -ipstatic_source_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/modelsim} {questa=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/questa} {ies=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/ies} {xcelium=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/xcelium} {vcs=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/vcs} {riviera=/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+ipx::package_project -root_dir /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1 -vendor user.org -library user -taxonomy /UserIP
+INFO: [IP_Flow 19-5107] Inferred bus interface 'ca_code' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis_data' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'adc_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'axis_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'adc_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'axis_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'adc_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'adc_clk': Added interface parameter 'ASSOCIATED_RESET' with value 'adc_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'axis_aresetn'.
+WARNING: [IP_Flow 19-3158] Bus Interface 'ca_code': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 's_axis_data': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3153] Bus Interface 'adc_clk': ASSOCIATED_BUSIF bus parameter is missing.
+WARNING: [IP_Flow 19-3153] Bus Interface 'axis_aclk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::associate_bus_interfaces -busif ca_code -clock axis_aclk [ipx::current_core]
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'ca_code'.
+ipx::associate_bus_interfaces -busif s_axis_data -clock adc_clk [ipx::current_core]
+INFO: [IP_Flow 19-4728] Bus Interface 'adc_clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 's_axis_data'.
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  {/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1 /home/badger/work/Capstone/ip_repo/Accum_project /home/badger/work/Capstone/ip_repo/Carrier_Wipeoff_TRK /home/badger/work/Capstone/ip_repo/L5_resampler /home/badger/work/Capstone/ip_repo/sample_counter} [current_project]
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/Accum_project'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/Carrier_Wipeoff_TRK'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/L5_resampler'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo/sample_counter'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/badger/work/Capstone/ip_repo/L5_trk_correlator_axis/L5_trk_correlator_axis.srcs/sources_1'
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+close_project
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/ip_repo/multicorrelator_resampler_3_1/multicorrelator_resampler_3_1_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/ip_repo/multicorrelator_resampler_5_1_AXI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/ip_repo/multicorrelator_resampler_S00_AXI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/ip_repo/Acquisition_AXI_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/badger/work/Capstone/hdl/library'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+startgroup
+create_bd_cell -type ip -vlnv user.org:user:L5_correlator_trk_AXIS:1.0 L5_correlator_trk_AX_0
+endgroup
+set_property location {1.5 387 -1796} [get_bd_cells multicorrelator_resa_2]
+startgroup
+copy_bd_objs /  [get_bd_cells {l1_data16_real}]
+copy_bd_objs /  [get_bd_cells {l1_data16_imag}]
+set_property location {16 14627 4286} [get_bd_cells l1_data16_real1]
+set_property location {16 14640 4400} [get_bd_cells l1_data16_imag1]
+endgroup
+set_property name l5_data16_real [get_bd_cells l1_data16_real1]
+set_property name l5_data16_imag [get_bd_cells l1_data16_imag1]
+connect_bd_net [get_bd_pins L5_trk_data/Dout] [get_bd_pins l5_data16_real/Din]
+connect_bd_net [get_bd_pins L5_trk_data/Dout] [get_bd_pins l5_data16_imag/Din]
+startgroup
+copy_bd_objs /  [get_bd_cells {l1_data8_real}]
+copy_bd_objs /  [get_bd_cells {l1_data8_imag}]
+set_property location {17 14850 4330} [get_bd_cells l1_data8_real1]
+set_property location {17 14880 4450} [get_bd_cells l1_data8_imag1]
+endgroup
+set_property name l5_data8_real [get_bd_cells l1_data8_real1]
+set_property name l5_data8_imag [get_bd_cells l1_data8_imag1]
+connect_bd_net [get_bd_pins l5_data16_real/Dout] [get_bd_pins l5_data8_real/Din]
+connect_bd_net [get_bd_pins l5_data16_imag/Dout] [get_bd_pins l5_data8_imag/Din]
+startgroup
+copy_bd_objs /  [get_bd_cells {trk_data_concat}]
+set_property location {17.5 15085 4403} [get_bd_cells trk_data_concat1]
+endgroup
+connect_bd_net [get_bd_pins trk_data_concat1/In0] [get_bd_pins l5_data8_real/Dout]
+connect_bd_net [get_bd_pins l5_data8_imag/Dout] [get_bd_pins trk_data_concat1/In1]
+set_property name trk_data_concat_l5 [get_bd_cells trk_data_concat1]
+set_property name trk_data_concat_L1 [get_bd_cells trk_data_concat]
+connect_bd_net [get_bd_pins trk_data_concat_l5/dout] [get_bd_pins L5_correlator_trk_AX_0/s_axis_data_tdata]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/s_axis_data_tvalid] [get_bd_pins axis_switch_mux_0/m_axis_tvalid]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/axis_aresetn] [get_bd_pins acquisition_0/acq_rest]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/axis_aclk] [get_bd_pins sys_ps8/pl_clk1]
+connect_bd_net [get_bd_ports core_clk_b] [get_bd_pins L5_correlator_trk_AX_0/adc_clk]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/adc_aresetn] [get_bd_pins core_clk_b_rstgen/peripheral_aresetn]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/acq_start] [get_bd_pins acquisition_0/start_acq]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/acq_stop] [get_bd_pins acquisition_0/acq_stop]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0
+endgroup
+set_property name L5_data_code_fifo [get_bd_cells axis_data_fifo_0]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES.VALUE_SRC USER] [get_bd_cells L5_data_code_fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {4} CONFIG.FIFO_DEPTH {16} CONFIG.IS_ACLK_ASYNC {1} CONFIG.SYNCHRONIZATION_STAGES {2}] [get_bd_cells L5_data_code_fifo]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/prog_mem_valid] [get_bd_pins L5_data_code_fifo/s_axis_tvalid]
+connect_bd_net [get_bd_pins L5_data_code_fifo/s_axis_aclk] [get_bd_pins sys_ps8/pl_clk0]
+connect_bd_net [get_bd_pins L5_data_code_fifo/s_axis_aresetn] [get_bd_pins sys_rstgen/peripheral_aresetn]
+connect_bd_net [get_bd_pins L5_data_code_fifo/s_axis_tdata] [get_bd_pins multicorrelator_resa_2/prog_mems_addr]
+connect_bd_net [get_bd_pins L5_data_code_fifo/m_axis_aclk] [get_bd_pins sys_ps8/pl_clk1]
+connect_bd_net [get_bd_pins L5_data_code_fifo/m_axis_tdata] [get_bd_pins L5_correlator_trk_AX_0/ca_code_tdata]
+connect_bd_net [get_bd_pins L5_data_code_fifo/m_axis_tvalid] [get_bd_pins L5_correlator_trk_AX_0/ca_code_tvalid]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_data_code_fifo}]
+set_property location {3 683 -1572} [get_bd_cells L5_data_code_fifo1]
+endgroup
+set_property name L5_clear_accum_fifo [get_bd_cells L5_data_code_fifo1]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {0}] [get_bd_cells L5_clear_accum_fifo]
+connect_bd_net [get_bd_pins L5_clear_accum_fifo/s_axis_aresetn] [get_bd_pins sys_rstgen/peripheral_aresetn]
+connect_bd_net [get_bd_pins L5_clear_accum_fifo/s_axis_aclk] [get_bd_pins sys_ps8/pl_clk0]
+connect_bd_net [get_bd_pins L5_clear_accum_fifo/m_axis_aclk] [get_bd_pins sys_ps8/pl_clk1]
+connect_bd_net [get_bd_pins L5_clear_accum_fifo/s_axis_tvalid] [get_bd_pins multicorrelator_resa_2/clear_trk_accum]
+connect_bd_net [get_bd_pins L5_clear_accum_fifo/m_axis_tvalid] [get_bd_pins L5_correlator_trk_AX_0/i_clear_accum]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_clear_accum_fifo}]
+set_property location {3 694 -1393} [get_bd_cells L5_clear_accum_fifo1]
+endgroup
+set_property name L5_start_flag_valid_fifo [get_bd_cells L5_clear_accum_fifo1]
+connect_bd_net [get_bd_pins L5_start_flag_valid_fifo/s_axis_tvalid] [get_bd_pins multicorrelator_resa_2/start_flag_valid]
+connect_bd_net [get_bd_pins L5_start_flag_valid_fifo/s_axis_aresetn] [get_bd_pins sys_rstgen/peripheral_aresetn]
+connect_bd_net [get_bd_pins L5_start_flag_valid_fifo/s_axis_aclk] [get_bd_pins sys_ps8/pl_clk0]
+connect_bd_net [get_bd_pins L5_start_flag_valid_fifo/m_axis_aclk] [get_bd_pins sys_ps8/pl_clk1]
+connect_bd_net [get_bd_pins L5_start_flag_valid_fifo/m_axis_tvalid] [get_bd_pins L5_correlator_trk_AX_0/start_tracking_valid]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_start_flag_valid_fifo}]
+set_property location {3 711 -1178} [get_bd_cells L5_start_flag_valid_fifo1]
+endgroup
+set_property name L5_stop_tracking_valid_fifo [get_bd_cells L5_start_flag_valid_fifo1]
+connect_bd_net [get_bd_pins L5_stop_tracking_valid_fifo/m_axis_aclk] [get_bd_pins sys_ps8/pl_clk1]
+connect_bd_net [get_bd_pins L5_stop_tracking_valid_fifo/s_axis_aclk] [get_bd_pins sys_ps8/pl_clk0]
+connect_bd_net [get_bd_pins L5_stop_tracking_valid_fifo/s_axis_aresetn] [get_bd_pins sys_rstgen/peripheral_aresetn]
+connect_bd_net [get_bd_pins L5_stop_tracking_valid_fifo/s_axis_tvalid] [get_bd_pins multicorrelator_resa_2/stop_tracking_valid]
+connect_bd_net [get_bd_pins L5_stop_tracking_valid_fifo/m_axis_tvalid] [get_bd_pins L5_correlator_trk_AX_0/stop_tracking_valid]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_stop_tracking_valid_fifo}]
+set_property location {3 695 -1004} [get_bd_cells L5_stop_tracking_valid_fifo1]
+endgroup
+set_property name L5_drop_samples_valid_fifo [get_bd_cells L5_stop_tracking_valid_fifo1]
+connect_bd_net [get_bd_pins L5_drop_samples_valid_fifo/s_axis_tvalid] [get_bd_pins multicorrelator_resa_2/drop_samples_valid]
+connect_bd_net [get_bd_pins L5_drop_samples_valid_fifo/s_axis_aresetn] [get_bd_pins sys_rstgen/peripheral_aresetn]
+connect_bd_net [get_bd_pins L5_drop_samples_valid_fifo/s_axis_aclk] [get_bd_pins sys_ps8/pl_clk0]
+connect_bd_net [get_bd_pins L5_drop_samples_valid_fifo/m_axis_aclk] [get_bd_pins sys_ps8/pl_clk1]
+connect_bd_net [get_bd_pins L5_drop_samples_valid_fifo/m_axis_tvalid] [get_bd_pins L5_correlator_trk_AX_0/drop_samples_valid]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_1
+endgroup
+set_property -dict [list CONFIG.IN2_WIDTH.VALUE_SRC USER CONFIG.IN0_WIDTH.VALUE_SRC USER CONFIG.IN1_WIDTH.VALUE_SRC USER] [get_bd_cells xlconcat_1]
+set_property -dict [list CONFIG.NUM_PORTS {3}] [get_bd_cells xlconcat_1]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/start_flag] [get_bd_pins xlconcat_1/In0]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/stop_tracking] [get_bd_pins xlconcat_1/In2]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/drop_samples] [get_bd_pins xlconcat_1/In1]
+set_property name L5_flags_concat [get_bd_cells xlconcat_1]
+set_property location {3 788 -1560} [get_bd_cells L5_flags_concat]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0
+endgroup
+delete_bd_objs [get_bd_cells axis_data_fifo_0]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_stop_tracking_valid_fifo}]
+set_property location {3.5 960 -1626} [get_bd_cells L5_stop_tracking_valid_fifo1]
+endgroup
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {1}] [get_bd_cells L5_stop_tracking_valid_fifo1]
+set_property name L5_flags_fifo1 [get_bd_cells L5_stop_tracking_valid_fifo1]
+set_property name L5_flags_fifo [get_bd_cells L5_flags_fifo1]
+connect_bd_net [get_bd_pins L5_flags_fifo/m_axis_aclk] [get_bd_pins sys_ps8/pl_clk1]
+connect_bd_net [get_bd_pins L5_flags_fifo/s_axis_aclk] [get_bd_pins sys_ps8/pl_clk0]
+connect_bd_net [get_bd_pins L5_flags_fifo/s_axis_aresetn] [get_bd_pins sys_rstgen/peripheral_aresetn]
+connect_bd_net [get_bd_pins L5_flags_concat/dout] [get_bd_pins L5_flags_fifo/s_axis_tdata]
+connect_bd_net [get_bd_pins L5_flags_fifo/s_axis_tvalid] [get_bd_pins constant_high/dout]
+set_property location {3 605 -1589} [get_bd_cells L5_flags_fifo]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_8
+endgroup
+set_property name l5_start_slice [get_bd_cells xlslice_8]
+connect_bd_net [get_bd_pins L5_flags_fifo/m_axis_tdata] [get_bd_pins l5_start_slice/Din]
+startgroup
+set_property -dict [list CONFIG.DIN_WIDTH {8} CONFIG.DIN_TO {0} CONFIG.DIN_FROM {0}] [get_bd_cells l5_start_slice]
+endgroup
+connect_bd_net [get_bd_pins l5_start_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/i_go]
+startgroup
+copy_bd_objs /  [get_bd_cells {l5_start_slice}]
+set_property location {4 909 -1507} [get_bd_cells l5_start_slice1]
+endgroup
+connect_bd_net [get_bd_pins l5_start_slice1/Din] [get_bd_pins L5_flags_fifo/m_axis_tdata]
+set_property name l5_drop_samples_slice [get_bd_cells l5_start_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {1} CONFIG.DIN_FROM {1} CONFIG.DIN_FROM {1} CONFIG.DOUT_WIDTH {1}] [get_bd_cells l5_drop_samples_slice]
+endgroup
+connect_bd_net [get_bd_pins l5_drop_samples_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/i_drop_samples]
+startgroup
+copy_bd_objs /  [get_bd_cells {l5_drop_samples_slice}]
+set_property location {4 908 -1434} [get_bd_cells l5_drop_samples_slice1]
+endgroup
+connect_bd_net [get_bd_pins l5_drop_samples_slice1/Din] [get_bd_pins L5_flags_fifo/m_axis_tdata]
+set_property name l5_stop_slice [get_bd_cells l5_drop_samples_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {2} CONFIG.DIN_FROM {2} CONFIG.DIN_FROM {2} CONFIG.DOUT_WIDTH {1}] [get_bd_cells l5_stop_slice]
+endgroup
+connect_bd_net [get_bd_pins l5_stop_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/i_stop_tracking]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_1
+endgroup
+set_property -dict [list CONFIG.IN0_WIDTH.VALUE_SRC USER CONFIG.IN1_WIDTH.VALUE_SRC USER CONFIG.IN2_WIDTH.VALUE_SRC USER CONFIG.IN3_WIDTH.VALUE_SRC USER CONFIG.IN4_WIDTH.VALUE_SRC USER CONFIG.IN5_WIDTH.VALUE_SRC USER CONFIG.IN6_WIDTH.VALUE_SRC USER CONFIG.IN7_WIDTH.VALUE_SRC USER CONFIG.IN8_WIDTH.VALUE_SRC USER CONFIG.IN9_WIDTH.VALUE_SRC USER CONFIG.IN10_WIDTH.VALUE_SRC USER CONFIG.IN11_WIDTH.VALUE_SRC USER CONFIG.IN12_WIDTH.VALUE_SRC USER CONFIG.IN13_WIDTH.VALUE_SRC USER CONFIG.IN14_WIDTH.VALUE_SRC USER CONFIG.IN15_WIDTH.VALUE_SRC USER] [get_bd_cells xlconcat_1]
+set_property -dict [list CONFIG.NUM_PORTS {16} CONFIG.IN0_WIDTH {32} CONFIG.IN1_WIDTH {32} CONFIG.IN2_WIDTH {32} CONFIG.IN3_WIDTH {32} CONFIG.IN4_WIDTH {32} CONFIG.IN5_WIDTH {32} CONFIG.IN6_WIDTH {32} CONFIG.IN7_WIDTH {32} CONFIG.IN8_WIDTH {32} CONFIG.IN9_WIDTH {32} CONFIG.IN10_WIDTH {32} CONFIG.IN11_WIDTH {32} CONFIG.IN12_WIDTH {32} CONFIG.IN13_WIDTH {32} CONFIG.IN14_WIDTH {32} CONFIG.IN15_WIDTH {64}] [get_bd_cells xlconcat_1]
+set_property name L5_cfg_concat [get_bd_cells xlconcat_1]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/codephase_step_chips_num] [get_bd_pins L5_cfg_concat/In0]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/init_index_E] [get_bd_pins L5_cfg_concat/In1]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/init_index_P] [get_bd_pins L5_cfg_concat/In2]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/init_index_L] [get_bd_pins L5_cfg_concat/In3]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/init_index_pilot] [get_bd_pins L5_cfg_concat/In4]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/init_interp_counter_E] [get_bd_pins L5_cfg_concat/In5]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/init_interp_counter_P] [get_bd_pins L5_cfg_concat/In6]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/init_interp_counter_L] [get_bd_pins L5_cfg_concat/In7]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/init_interp_counter_pilot] [get_bd_pins L5_cfg_concat/In8]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/nsamples_minus_1] [get_bd_pins L5_cfg_concat/In9]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/codelength_minus_1] [get_bd_pins L5_cfg_concat/In10]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/rem_carr_phase_rad] [get_bd_pins L5_cfg_concat/In11]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/phase_step_rad] [get_bd_pins L5_cfg_concat/In12]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/codephase_step_chips_rate] [get_bd_pins L5_cfg_concat/In13]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/phase_step_rate] [get_bd_pins L5_cfg_concat/In14]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_1
+endgroup
+connect_bd_net [get_bd_pins multicorrelator_resa_2/init_counter_lsw] [get_bd_pins xlconcat_1/In0]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/init_counter_msw] [get_bd_pins xlconcat_1/In1]
+connect_bd_net [get_bd_pins xlconcat_1/dout] [get_bd_pins L5_cfg_concat/In15]
+startgroup
+set_property -dict [list CONFIG.IN0_WIDTH.VALUE_SRC USER CONFIG.IN1_WIDTH.VALUE_SRC USER] [get_bd_cells xlconcat_1]
+set_property -dict [list CONFIG.IN0_WIDTH {32} CONFIG.IN1_WIDTH {32}] [get_bd_cells xlconcat_1]
+endgroup
+set_property name L5_init_sample_count [get_bd_cells xlconcat_1]
+set_property location {3 821 -2551} [get_bd_cells L5_cfg_concat]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_data_code_fifo}]
+set_property location {3.5 1011 -2512} [get_bd_cells L5_data_code_fifo1]
+endgroup
+set_property name L5_cfg_data_fifo [get_bd_cells L5_data_code_fifo1]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {64}] [get_bd_cells L5_cfg_data_fifo]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {68}] [get_bd_cells L5_cfg_data_fifo]
+connect_bd_net [get_bd_pins L5_cfg_concat/dout] [get_bd_pins L5_cfg_data_fifo/s_axis_tdata]
+connect_bd_net [get_bd_pins L5_cfg_data_fifo/s_axis_tvalid] [get_bd_pins constant_high/dout]
+connect_bd_net [get_bd_pins L5_cfg_data_fifo/s_axis_aresetn] [get_bd_pins sys_rstgen/peripheral_aresetn]
+connect_bd_net [get_bd_pins L5_cfg_data_fifo/s_axis_aclk] [get_bd_pins sys_ps8/pl_clk0]
+connect_bd_net [get_bd_pins L5_cfg_data_fifo/m_axis_aclk] [get_bd_pins sys_ps8/pl_clk1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_8
+endgroup
+set_property -dict [list CONFIG.DIN_FROM {031} CONFIG.DIN_WIDTH {544} CONFIG.DIN_TO {0} CONFIG.DOUT_WIDTH {32}] [get_bd_cells xlslice_8]
+set_property name L5_codephase_step_slice [get_bd_cells xlslice_8]
+connect_bd_net [get_bd_pins L5_cfg_data_fifo/m_axis_tdata] [get_bd_pins L5_codephase_step_slice/Din]
+set_property location {6 1838 -2476} [get_bd_cells L5_correlator_trk_AX_0]
+connect_bd_net [get_bd_pins L5_codephase_step_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/code_phase_step_chips]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_codephase_step_slice}]
+set_property location {5 1293 -2441} [get_bd_cells L5_codephase_step_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_codephase_step_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_init_index_E [get_bd_cells L5_codephase_step_slice1]
+set_property name L5_init_index_E_slice [get_bd_cells L5_init_index_E]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {032} CONFIG.DIN_FROM {63} CONFIG.DIN_FROM {63} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_init_index_E_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_init_index_E_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/initial_index_E]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_init_index_E_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_init_index_E_slice'
+set_property location {5 1294 -2327} [get_bd_cells L5_init_index_E_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_init_index_E_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_init_index_P_slice [get_bd_cells L5_init_index_E_slice1]
+connect_bd_net [get_bd_pins L5_init_index_P_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/initial_index_P]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {64} CONFIG.DIN_FROM {95} CONFIG.DIN_FROM {95} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_init_index_P_slice]
+endgroup
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_init_index_P_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_init_index_P_slice'
+set_property location {5 1299 -2255} [get_bd_cells L5_init_index_P_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_init_index_P_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_init_index_L_slice [get_bd_cells L5_init_index_P_slice1]
+connect_bd_net [get_bd_pins L5_init_index_L_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/initial_index_L]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {96} CONFIG.DIN_FROM {127} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_init_index_L_slice]
+endgroup
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_init_index_L_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_init_index_L_slice'
+set_property location {5 1294 -2162} [get_bd_cells L5_init_index_L_slice1]
+endgroup
+set_property name L5_init_index_Pilot_slice [get_bd_cells L5_init_index_L_slice1]
+connect_bd_net [get_bd_pins L5_init_index_Pilot_slice/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {128} CONFIG.DIN_FROM {159} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_init_index_Pilot_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_init_index_Pilot_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/initial_index_Pilot]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_init_index_Pilot_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_init_index_Pilot_slice'
+set_property location {5 1297 -2065} [get_bd_cells L5_init_index_Pilot_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_init_index_Pilot_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_init_interp_E_slice [get_bd_cells L5_init_index_Pilot_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {160} CONFIG.DIN_FROM {191} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_init_interp_E_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_init_interp_E_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/initial_interp_counter_E]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_init_interp_E_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_init_interp_E_slice'
+set_property location {5 1282 -1982} [get_bd_cells L5_init_interp_E_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_init_interp_E_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {192} CONFIG.DIN_FROM {223} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_init_interp_E_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_init_interp_E_slice1/Dout] [get_bd_pins L5_correlator_trk_AX_0/initial_interp_counter_P]
+set_property name L5_init_interp_P_slice [get_bd_cells L5_init_interp_E_slice1]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_init_interp_P_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_init_interp_P_slice'
+set_property location {5 1285 -1889} [get_bd_cells L5_init_interp_P_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_init_interp_P_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_init_interp_L_slice [get_bd_cells L5_init_interp_P_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {224} CONFIG.DIN_FROM {255} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_init_interp_L_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_init_interp_L_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/initial_interp_counter_L]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_init_interp_L_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_init_interp_L_slice'
+set_property location {5 1289 -1800} [get_bd_cells L5_init_interp_L_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_init_interp_L_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_init_interp_Pilot_slice [get_bd_cells L5_init_interp_L_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {256} CONFIG.DIN_FROM {287} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_init_interp_Pilot_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_init_interp_Pilot_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/initial_interp_counter_Pilot]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_init_interp_Pilot_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_init_interp_Pilot_slice'
+set_property location {5 1290 -1722} [get_bd_cells L5_init_interp_Pilot_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_init_interp_Pilot_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_nsamples_m1_slice [get_bd_cells L5_init_interp_Pilot_slice1]
+connect_bd_net [get_bd_pins L5_nsamples_m1_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/i_correlator_length_samples]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {288} CONFIG.DIN_FROM {319} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_nsamples_m1_slice]
+endgroup
+set_property location {5 1307 -1652} [get_bd_cells L5_nsamples_m1_slice]
+set_property location {5 1294 -1720} [get_bd_cells L5_nsamples_m1_slice]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_nsamples_m1_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_nsamples_m1_slice'
+set_property location {5 1297 -1661} [get_bd_cells L5_nsamples_m1_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_nsamples_m1_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_codelength_m1_slice [get_bd_cells L5_nsamples_m1_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {320} CONFIG.DIN_FROM {351} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_codelength_m1_slice]
+endgroup
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_codelength_m1_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_codelength_m1_slice'
+set_property location {5 1283 -1592} [get_bd_cells L5_codelength_m1_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_codelength_m1_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_rem_carr_phase_slice [get_bd_cells L5_codelength_m1_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {352} CONFIG.DIN_FROM {383} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_rem_carr_phase_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_rem_carr_phase_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/rem_carr_phase_rad]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_rem_carr_phase_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_rem_carr_phase_slice'
+set_property location {5 1287 -1523} [get_bd_cells L5_rem_carr_phase_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_rem_carr_phase_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_rphase_step_slice [get_bd_cells L5_rem_carr_phase_slice1]
+set_property name L5_phase_step_slice [get_bd_cells L5_rphase_step_slice]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {384} CONFIG.DIN_FROM {415} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_phase_step_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_phase_step_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/phase_step_rad]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_phase_step_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_phase_step_slice'
+set_property location {5 1291 -1447} [get_bd_cells L5_phase_step_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_phase_step_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_codephase_rate_slice [get_bd_cells L5_phase_step_slice1]
+connect_bd_net [get_bd_pins L5_codephase_rate_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/code_phase_rate]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {416} CONFIG.DIN_FROM {447} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_codephase_rate_slice]
+endgroup
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_codephase_rate_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_codephase_rate_slice'
+set_property location {5 1285 -1383} [get_bd_cells L5_codephase_rate_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_codephase_rate_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_phase_rate_slice [get_bd_cells L5_codephase_rate_slice1]
+connect_bd_net [get_bd_pins L5_phase_rate_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/phase_step_rate_rad]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {448} CONFIG.DIN_FROM {479} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_phase_rate_slice]
+endgroup
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_phase_rate_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_phase_rate_slice'
+set_property location {5 1292 -1328} [get_bd_cells L5_phase_rate_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_phase_rate_slice1/Din] [get_bd_pins L5_cfg_data_fifo/m_axis_tdata]
+set_property name L5_init_sample_count_slice [get_bd_cells L5_phase_rate_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {480} CONFIG.DIN_FROM {543} CONFIG.DOUT_WIDTH {64}] [get_bd_cells L5_init_sample_count_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_init_sample_count_slice/Dout] [get_bd_pins L5_correlator_trk_AX_0/i_acq_delay_samples]
+save_bd_design
+Wrote  : </home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd> 
+Wrote  : </home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_1
+endgroup
+set_property -dict [list CONFIG.IN2_WIDTH.VALUE_SRC USER CONFIG.IN3_WIDTH.VALUE_SRC USER CONFIG.IN4_WIDTH.VALUE_SRC USER CONFIG.IN5_WIDTH.VALUE_SRC USER CONFIG.IN6_WIDTH.VALUE_SRC USER CONFIG.IN7_WIDTH.VALUE_SRC USER CONFIG.IN0_WIDTH.VALUE_SRC USER CONFIG.IN1_WIDTH.VALUE_SRC USER] [get_bd_cells xlconcat_1]
+set_property -dict [list CONFIG.NUM_PORTS {8} CONFIG.IN0_WIDTH {32} CONFIG.IN1_WIDTH {32} CONFIG.IN2_WIDTH {32} CONFIG.IN3_WIDTH {32} CONFIG.IN4_WIDTH {32} CONFIG.IN5_WIDTH {32} CONFIG.IN6_WIDTH {32} CONFIG.IN7_WIDTH {32}] [get_bd_cells xlconcat_1]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/o_iE] [get_bd_pins xlconcat_1/In0]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/o_qE] [get_bd_pins xlconcat_1/In1]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/o_iP] [get_bd_pins xlconcat_1/In2]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/o_qP] [get_bd_pins xlconcat_1/In3]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/o_iL] [get_bd_pins xlconcat_1/In4]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/o_qL] [get_bd_pins xlconcat_1/In5]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/o_iPilot] [get_bd_pins xlconcat_1/In6]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/o_qPilot] [get_bd_pins xlconcat_1/In7]
+set_property name L5_results_concat [get_bd_cells xlconcat_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0
+endgroup
+set_property -dict [list CONFIG.TDATA_NUM_BYTES.VALUE_SRC USER] [get_bd_cells axis_data_fifo_0]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {32} CONFIG.FIFO_DEPTH {16} CONFIG.IS_ACLK_ASYNC {1} CONFIG.SYNCHRONIZATION_STAGES {2}] [get_bd_cells axis_data_fifo_0]
+connect_bd_net [get_bd_pins L5_results_concat/dout] [get_bd_pins axis_data_fifo_0/s_axis_tdata]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/o_ready] [get_bd_pins axis_data_fifo_0/s_axis_tvalid]
+connect_bd_net [get_bd_pins axis_data_fifo_0/s_axis_aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+connect_bd_net [get_bd_pins axis_data_fifo_0/s_axis_aclk] [get_bd_pins sys_ps8/pl_clk1]
+connect_bd_net [get_bd_pins axis_data_fifo_0/m_axis_aclk] [get_bd_pins sys_ps8/pl_clk0]
+set_property name L5_results_fifo [get_bd_cells axis_data_fifo_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_8
+endgroup
+set_property -dict [list CONFIG.DIN_FROM {031} CONFIG.DIN_WIDTH {256} CONFIG.DIN_TO {0} CONFIG.DOUT_WIDTH {32}] [get_bd_cells xlslice_8]
+set_property name L5_o_iE_slice [get_bd_cells xlslice_8]
+connect_bd_net [get_bd_pins L5_o_iE_slice/Din] [get_bd_pins L5_results_fifo/m_axis_tdata]
+connect_bd_net [get_bd_pins L5_o_iE_slice/Dout] [get_bd_pins multicorrelator_resa_2/i_iE]
+connect_bd_net [get_bd_pins L5_results_fifo/m_axis_tvalid] [get_bd_pins multicorrelator_resa_2/i_results_ready]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_o_iE_slice}]
+set_property location {9 2820 -2441} [get_bd_cells L5_o_iE_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_o_iE_slice1/Din] [get_bd_pins L5_results_fifo/m_axis_tdata]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {032} CONFIG.DIN_FROM {63} CONFIG.DIN_FROM {63} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_o_iE_slice1]
+endgroup
+set_property name L5_o_qE_slice [get_bd_cells L5_o_iE_slice1]
+connect_bd_net [get_bd_pins L5_o_qE_slice/Dout] [get_bd_pins multicorrelator_resa_2/i_qE]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_o_qE_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_o_qE_slice'
+set_property location {9 2828 -2368} [get_bd_cells L5_o_qE_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_o_qE_slice1/Din] [get_bd_pins L5_results_fifo/m_axis_tdata]
+set_property name L5_o_iP_slice [get_bd_cells L5_o_qE_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {64} CONFIG.DIN_FROM {95} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_o_iP_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_o_iP_slice/Dout] [get_bd_pins multicorrelator_resa_2/i_iP]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_o_iP_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_o_iP_slice'
+set_property location {9 2813 -2294} [get_bd_cells L5_o_iP_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_o_iP_slice1/Din] [get_bd_pins L5_results_fifo/m_axis_tdata]
+set_property name L5_o_qP_slice [get_bd_cells L5_o_iP_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {96} CONFIG.DIN_FROM {127} CONFIG.DIN_FROM {127} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_o_qP_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_o_qP_slice/Dout] [get_bd_pins multicorrelator_resa_2/i_qP]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_o_qP_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_o_qP_slice'
+set_property location {9 2820 -2186} [get_bd_cells L5_o_qP_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_o_qP_slice1/Din] [get_bd_pins L5_results_fifo/m_axis_tdata]
+set_property name L5_o_iL_slice [get_bd_cells L5_o_qP_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {128} CONFIG.DIN_FROM {159} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_o_iL_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_o_iL_slice/Dout] [get_bd_pins multicorrelator_resa_2/i_iL]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_o_iL_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_o_iL_slice'
+set_property location {9 2823 -2104} [get_bd_cells L5_o_iL_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_o_iL_slice1/Din] [get_bd_pins L5_results_fifo/m_axis_tdata]
+set_property name L5_o_qL_slice [get_bd_cells L5_o_iL_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {160} CONFIG.DIN_FROM {191} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_o_qL_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_o_qL_slice/Dout] [get_bd_pins multicorrelator_resa_2/i_qL]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_o_qL_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_o_qL_slice'
+set_property location {9 2819 -2019} [get_bd_cells L5_o_qL_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_o_qL_slice1/Din] [get_bd_pins L5_results_fifo/m_axis_tdata]
+set_property name L5_o_iPilot_slice [get_bd_cells L5_o_qL_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {192} CONFIG.DIN_FROM {223} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_o_iPilot_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_o_iPilot_slice/Dout] [get_bd_pins multicorrelator_resa_2/i_iPilot]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_o_iPilot_slice}]
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'DOUT_WIDTH' from '1' to '32' has been ignored for IP 'L5_o_iPilot_slice'
+set_property location {9 2819 -1917} [get_bd_cells L5_o_iPilot_slice1]
+endgroup
+connect_bd_net [get_bd_pins L5_o_iPilot_slice1/Din] [get_bd_pins L5_results_fifo/m_axis_tdata]
+set_property name L5_o_qPilot_slice [get_bd_cells L5_o_iPilot_slice1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {224} CONFIG.DIN_FROM {255} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_o_qPilot_slice]
+endgroup
+connect_bd_net [get_bd_pins L5_o_qPilot_slice/Dout] [get_bd_pins multicorrelator_resa_2/i_qPilot]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0
+endgroup
+delete_bd_objs [get_bd_cells axis_data_fifo_0]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_results_fifo}]
+set_property location {8 2425 -2232} [get_bd_cells L5_results_fifo1]
+endgroup
+set_property name L5_sample_count_fifo [get_bd_cells L5_results_fifo1]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {8}] [get_bd_cells L5_sample_count_fifo]
+connect_bd_net [get_bd_pins L5_sample_count_fifo/m_axis_aclk] [get_bd_pins sys_ps8/pl_clk0]
+connect_bd_net [get_bd_pins L5_sample_count_fifo/s_axis_aclk] [get_bd_pins sys_ps8/pl_clk1]
+connect_bd_net [get_bd_pins L5_sample_count_fifo/s_axis_aresetn] [get_bd_pins proc_sys_reset_0/peripheral_aresetn]
+connect_bd_net [get_bd_pins L5_sample_count_fifo/s_axis_tdata] [get_bd_pins L5_correlator_trk_AX_0/o_data_count]
+connect_bd_net [get_bd_pins L5_correlator_trk_AX_0/o_sample_count_vld] [get_bd_pins L5_sample_count_fifo/s_axis_tvalid]
+set_property location {7 2010 -2191} [get_bd_cells L5_sample_count_fifo]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_8
+endgroup
+connect_bd_net [get_bd_pins xlslice_8/Din] [get_bd_pins L5_sample_count_fifo/m_axis_tdata]
+startgroup
+set_property -dict [list CONFIG.DIN_FROM {031} CONFIG.DIN_WIDTH {64} CONFIG.DIN_TO {0} CONFIG.DOUT_WIDTH {32}] [get_bd_cells xlslice_8]
+endgroup
+set_property name L5_sample_count_lsw [get_bd_cells xlslice_8]
+startgroup
+copy_bd_objs /  [get_bd_cells {L5_sample_count_lsw}]
+set_property location {8 2257 -2125} [get_bd_cells L5_sample_count_lsw1]
+endgroup
+connect_bd_net [get_bd_pins L5_sample_count_lsw1/Din] [get_bd_pins L5_sample_count_fifo/m_axis_tdata]
+set_property name L5_sample_count_msw [get_bd_cells L5_sample_count_lsw1]
+startgroup
+set_property -dict [list CONFIG.DIN_TO {032} CONFIG.DIN_FROM {63} CONFIG.DIN_FROM {63} CONFIG.DOUT_WIDTH {32}] [get_bd_cells L5_sample_count_msw]
+endgroup
+connect_bd_net [get_bd_pins L5_sample_count_msw/Dout] [get_bd_pins multicorrelator_resa_2/i_sample_counter_msw]
+connect_bd_net [get_bd_pins multicorrelator_resa_2/i_sample_counter_lsw] [get_bd_pins L5_sample_count_lsw/Dout]
+reset_target all [get_files  /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd]
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+WARNING: [filemgmt 56-316] Unable to set the workflow value for memory map. The only allowable values are simulation or implementation. You specified a value of , this is not allowed.
+export_ip_user_files -of_objects  [get_files  /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd] -sync -no_script -force -quiet
+generate_target all [get_files  /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd]
+INFO: [Device 21-403] Loading part xczu11eg-ffvf1517-2-i
+INFO: [xilinx.com:ip:fir_compiler:7.2-913] /fir_downsample_dec22 Data_Sign has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:fir_compiler:7.2-913] /fir_downsample_dec22 Data_Width has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+INFO: [xilinx.com:ip:fir_compiler:7.2-913] /fir_downsample_dec22 Data_Fractional_Bits has been set to manual on the GUI. It will not be updated during validation with a propagated value.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 5 not recognized - using default interrupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-6] /axi_intc_0: Property SENSITIVITY = "NULL" for interrupt input 4 not recognized - using default interrupt type Rising Edge. Please change this manually if necessary.
+WARNING: [xilinx.com:ip:axi_intc:4.1-13] /axi_intc_0: Interrupt output connection Bus is selected, but the interrupt bus interface is not connected to a matching interface. Please consider selecting Single instead.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /axi_cpu_interconnect/s00_couplers/auto_pc/S_AXI(0) and /sys_ps8/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /axi_cpu_interconnect/s00_couplers/auto_pc/S_AXI(0) and /sys_ps8/M_AXI_HPM0_LPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /sys_ps8/S_AXI_HP3_FPD(1) and /axi_adrv9009_som_tx_dma/m_src_axi(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /sys_ps8/S_AXI_HP3_FPD(1) and /axi_adrv9009_som_tx_dma/m_src_axi(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /sys_ps8/S_AXI_HP2_FPD(1) and /axi_adrv9009_som_rx_dma/m_dest_axi(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /sys_ps8/S_AXI_HP2_FPD(1) and /axi_adrv9009_som_rx_dma/m_dest_axi(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /sys_ps8/S_AXI_HP1_FPD(1) and /axi_adrv9009_som_obs_dma/m_dest_axi(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /sys_ps8/S_AXI_HP1_FPD(1) and /axi_adrv9009_som_obs_dma/m_dest_axi(0)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /sys_ps8/S_AXI_HP0_FPD(1) and /axi_hp0_interconnect/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /sys_ps8/S_AXI_HP0_FPD(1) and /axi_hp0_interconnect/M00_AXI(0)
+WARNING: [BD 41-927] Following properties on pin /axi_sysid_0/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /rom_sys_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /axi_tx_fifo/dma_rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /axi_tx_fifo/dac_rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /axi_tx_fifo/axi_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_ddr4_1_0_c0_ddr4_ui_clk 
+WARNING: [BD 41-927] Following properties on pin /axi_adrv9009_som_tx_xcvr/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /axi_adrv9009_som_rx_xcvr/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /axi_adrv9009_som_obs_xcvr/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /util_adrv9009_som_xcvr/up_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /axi_i2s_adi/data_clk_i have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk2 
+WARNING: [BD 41-927] Following properties on pin /axi_i2s_adi/s_axis_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /axi_i2s_adi/m_axis_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /axi_i2s_adi/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /axi_fan_control_0/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /L5_correlator_trk_AX_0/axis_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk1 
+WARNING: [BD 41-927] Following properties on pin /axi_adrv9009_som_tx_jesd/tx_axi/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /tx_adrv9009_som_tpl_core/dac_tpl_core/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /axi_adrv9009_som_rx_jesd/rx_axi/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /rx_adrv9009_som_tpl_core/adc_tpl_core/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /axi_adrv9009_som_obs_jesd/rx_axi/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /obs_adrv9009_som_tpl_core/adc_tpl_core/s_axi_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk0 
+WARNING: [BD 41-927] Following properties on pin /tracking_gps_l1_0/track_correlator_gps_0/axis_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk1 
+WARNING: [BD 41-927] Following properties on pin /acquisition_0/acquisition_axis_0/axis_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk1 
+WARNING: [BD 41-927] Following properties on pin /observables_counter_0/sample_counter_secon_0/axis_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk1 
+WARNING: [BD 41-927] Following properties on pin /observables_counter_0/sample_counter_0/axis_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk1 
+WARNING: [BD 41-927] Following properties on pin /Galileo_e1_trk/galileo_e1_correlator_0/axis_aclk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=system_sys_ps8_0_pl_clk1 
+Wrote  : </home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd> 
+Wrote  : </home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 

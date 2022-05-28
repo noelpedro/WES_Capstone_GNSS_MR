@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Feb 13 04:40:19 2022
+# Process ID: 3066
+# Current directory: /home/badger/work/Capstone/MATLAB
+# Command line: vivado
+# Log file: /home/badger/work/Capstone/MATLAB/vivado.log
+# Journal file: /home/badger/work/Capstone/MATLAB/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.xpr
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [get_hw_devices xczu11_0]
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu11_0]
+update_compile_order -fileset sources_1
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+set_property PROGRAM.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/system_top.bit} [get_hw_devices xczu11_0]
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+open_bd_design {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd}
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Xilinx/00001b34711e01}
+refresh_hw_server {localhost:3121}
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/system_top.bit} [get_hw_devices xczu11_0]
+set_property PROBES.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu11_0]
+set_property FULL_PROBES.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu11_0]
+current_hw_device [get_hw_devices xczu11_0]
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu11_0]
+open_bd_design {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd}
+open_bd_design {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd}
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/system_top.bit} [get_hw_devices xczu11_0]
+set_property PROBES.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu11_0]
+set_property FULL_PROBES.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu11_0]
+current_hw_device [get_hw_devices xczu11_0]
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu11_0]
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/system_top.bit} [get_hw_devices xczu11_0]
+set_property PROBES.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu11_0]
+set_property FULL_PROBES.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu11_0]
+current_hw_device [get_hw_devices xczu11_0]
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu11_0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/system_top.bit} [get_hw_devices xczu11_0]
+set_property PROBES.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu11_0]
+set_property FULL_PROBES.FILE {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu11_0]
+current_hw_device [get_hw_devices xczu11_0]
+refresh_hw_device [lindex [get_hw_devices xczu11_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu11_0]

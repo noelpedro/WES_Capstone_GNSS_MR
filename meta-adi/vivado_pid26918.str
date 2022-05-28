@@ -1,0 +1,1446 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 26918
+License: Customer
+
+Current time: 	Thu Mar 17 19:12:44 GMT 2022
+Time zone: 	Greenwich Mean Time (Atlantic/Reykjavik)
+
+OS: Ubuntu
+OS Version: 4.15.0-161-generic
+OS Architecture: amd64
+Available processors (cores): 12
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 162 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/home/badger/Downloads/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/home/badger/Downloads/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	badger
+User home directory: /home/badger
+User working directory: /home/badger/work/Capstone/meta-adi
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/badger/Downloads/Vivado
+HDI_APPROOT: /home/badger/Downloads/Vivado/2019.1
+RDI_DATADIR: /home/badger/Downloads/Vivado/2019.1/data
+RDI_BINDIR: /home/badger/Downloads/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/badger/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/badger/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/badger/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/home/badger/Downloads/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/badger/work/Capstone/meta-adi/vivado.log
+Vivado journal file location: 	/home/badger/work/Capstone/meta-adi/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-26918-badger
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/badger/Downloads/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /home/badger/Downloads/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /home/badger/Downloads/Vivado/2019.1
+XILINX_SDK: /home/badger/Downloads/SDK/2019.1
+XILINX_VIVADO: /home/badger/Downloads/Vivado/2019.1
+XILINX_VIVADO_HLS: /home/badger/Downloads/Vivado/2019.1
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 857 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 829 MB. GUI used memory: 46 MB. Current time: 3/17/22, 7:12:47 PM GMT
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.xpr", 2); // q (O, cl)
+// [GUI Memory]: 75 MB (+76136kb) [00:00:36]
+// [Engine Memory]: 890 MB (+781728kb) [00:00:36]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 952 MB. GUI used memory: 46 MB. Current time: 3/17/22, 7:13:17 PM GMT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,114 MB (+188518kb) [00:00:46]
+// [GUI Memory]: 91 MB (+12686kb) [00:00:47]
+// [GUI Memory]: 109 MB (+14611kb) [00:00:47]
+// [GUI Memory]: 115 MB (+8kb) [00:00:47]
+// [GUI Memory]: 122 MB (+1816kb) [00:00:47]
+// WARNING: HEventQueue.dispatchEvent() is taking  1827 ms.
+// Tcl Message: open_project /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// [Engine Memory]: 1,178 MB (+8494kb) [00:00:47]
+// Project name: adrv9009zu11eg; location: /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc; part: xczu11eg-ffvf1517-2-i
+// Elapsed time: 12 seconds
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 1,303 MB (+68799kb) [00:00:49]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.3 - sys_ps8 
+// Tcl Message: Successfully read diagram <system> from BD file </home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// 'bB' command handler elapsed time: 3 seconds
+dismissDialog("Open Block Design"); // by (cl)
+// [GUI Memory]: 130 MB (+1893kb) [00:00:55]
+// [GUI Memory]: 138 MB (+1200kb) [00:00:57]
+// WARNING: HTimer (RSBAttributeDisplay Update Pin Markers Timer) is taking 818ms to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,347 MB. GUI used memory: 74 MB. Current time: 3/17/22, 7:13:37 PM GMT
+// Elapsed time: 41 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 599, 166, 1155, 601, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // ae (an, cl)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_HIERARCHY, "Create Hierarchy..."); // ah (an, cl)
+// gg (cl): Create Hierarchy: addNotify
+// [GUI Memory]: 157 MB (+12548kb) [00:01:39]
+// Elapsed time: 13 seconds
+setText(PAResourceQtoS.SystemBuilderMenu_CELL_NAME, "L5_corrrelator_TRK", true); // Y (Q, gg)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (gg)
+dismissDialog("Create Hierarchy"); // gg (cl)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// by (cl):  Create Hierarchy : addNotify
+dismissDialog("Create Hierarchy"); // by (cl)
+// Tcl Command: 'set_property location {3.5 376 -1860} [get_bd_cells L5_corrrelator_TRK]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {3.5 376 -1860} [get_bd_cells L5_corrrelator_TRK] 
+// Elapsed time: 14 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 24 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "codephase_step", true); // Y (Q, cl)
+// Tcl Command: 'set_property name codephase_step [get_bd_pins L5_corrrelator_TRK/In0]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name codephase_step [get_bd_pins L5_corrrelator_TRK/In0] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "init_index_E", true); // Y (Q, cl)
+// Tcl Command: 'set_property name init_index_E [get_bd_pins L5_corrrelator_TRK/In1]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name init_index_E [get_bd_pins L5_corrrelator_TRK/In1] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "init_index_P", true); // Y (Q, cl)
+// Tcl Command: 'set_property name init_index_P [get_bd_pins L5_corrrelator_TRK/In2]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name init_index_P [get_bd_pins L5_corrrelator_TRK/In2] 
+// Elapsed time: 11 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "init_index_P", true); // Y (Q, cl)
+// HOptionPane Error: 'A port named 'init_index_P' already exists. Please enter another name. (Vivado)'
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "init_index_L", true); // Y (Q, cl)
+// Tcl Command: 'set_property name init_index_L [get_bd_pins L5_corrrelator_TRK/In3]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name init_index_L [get_bd_pins L5_corrrelator_TRK/In3] 
+// Elapsed time: 14 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "init_index_pilot", true); // Y (Q, cl)
+// Tcl Command: 'set_property name init_index_pilot [get_bd_pins L5_corrrelator_TRK/In4]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name init_index_pilot [get_bd_pins L5_corrrelator_TRK/In4] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "interp_E", true); // Y (Q, cl)
+// Tcl Command: 'set_property name interp_E [get_bd_pins L5_corrrelator_TRK/In5]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name interp_E [get_bd_pins L5_corrrelator_TRK/In5] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "interp_P", true); // Y (Q, cl)
+// Tcl Command: 'set_property name interp_P [get_bd_pins L5_corrrelator_TRK/In6]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name interp_P [get_bd_pins L5_corrrelator_TRK/In6] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "interp_L", true); // Y (Q, cl)
+// Tcl Command: 'set_property name interp_L [get_bd_pins L5_corrrelator_TRK/In7]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name interp_L [get_bd_pins L5_corrrelator_TRK/In7] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "interp_pilot", true); // Y (Q, cl)
+// Tcl Command: 'set_property name interp_pilot [get_bd_pins L5_corrrelator_TRK/In8]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name interp_pilot [get_bd_pins L5_corrrelator_TRK/In8] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "nsamples", true); // Y (Q, cl)
+// Tcl Command: 'set_property name nsamples [get_bd_pins L5_corrrelator_TRK/In9]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name nsamples [get_bd_pins L5_corrrelator_TRK/In9] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "codelength", true); // Y (Q, cl)
+// Tcl Command: 'set_property name codelength [get_bd_pins L5_corrrelator_TRK/In10]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name codelength [get_bd_pins L5_corrrelator_TRK/In10] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "rem_carr_phase", true); // Y (Q, cl)
+// Tcl Command: 'set_property name rem_carr_phase [get_bd_pins L5_corrrelator_TRK/In11]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name rem_carr_phase [get_bd_pins L5_corrrelator_TRK/In11] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "phase_step_rad", true); // Y (Q, cl)
+// Tcl Command: 'set_property name phase_step_rad [get_bd_pins L5_corrrelator_TRK/In12]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name phase_step_rad [get_bd_pins L5_corrrelator_TRK/In12] 
+// Elapsed time: 12 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "chephase_rate", true); // Y (Q, cl)
+// Tcl Command: 'set_property name chephase_rate [get_bd_pins L5_corrrelator_TRK/In13]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name chephase_rate [get_bd_pins L5_corrrelator_TRK/In13] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "phase_rate", true); // Y (Q, cl)
+// Tcl Command: 'set_property name phase_rate [get_bd_pins L5_corrrelator_TRK/In14]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name phase_rate [get_bd_pins L5_corrrelator_TRK/In14] 
+// Elapsed time: 13 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_clk", true); // Y (Q, cl)
+// Tcl Command: 'set_property name cpu_sys_clk [get_bd_pins L5_corrrelator_TRK/s_axis_aresetn]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name cpu_sys_clk [get_bd_pins L5_corrrelator_TRK/s_axis_aresetn] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, (String) null); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_clk"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_cl"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_clc"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_clck"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_clc"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_cl"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_c"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sy"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_syc"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sy"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_s"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cp"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "c"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, (String) null); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "s"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "sy"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "sys"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "sy"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "s"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, (String) null); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "c"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cp"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cp"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "c"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, (String) null); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "s_axis_aresetn"); // Y (Q, cl)
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_restn", true); // Y (Q, cl)
+// Tcl Command: 'set_property name cpu_sys_restn [get_bd_pins L5_corrrelator_TRK/cpu_sys_clk]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name cpu_sys_restn [get_bd_pins L5_corrrelator_TRK/cpu_sys_clk] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "cpu_sys_clk", true); // Y (Q, cl)
+// Tcl Command: 'set_property name cpu_sys_clk [get_bd_pins L5_corrrelator_TRK/s_axis_aclk]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name cpu_sys_clk [get_bd_pins L5_corrrelator_TRK/s_axis_aclk] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "clear_accum", true); // Y (Q, cl)
+// Tcl Command: 'set_property name clear_accum [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name clear_accum [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "processing_clk", true); // Y (Q, cl)
+// Tcl Command: 'set_property name processing_clk [get_bd_pins L5_corrrelator_TRK/axis_aclk]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name processing_clk [get_bd_pins L5_corrrelator_TRK/axis_aclk] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "drop_samples_valid", true); // Y (Q, cl)
+// Tcl Command: 'set_property name drop_samples_valid [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid1]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// [Engine Memory]: 1,368 MB (+112kb) [00:05:44]
+// Tcl Message: set_property name drop_samples_valid [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid1] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "constant_high", true); // Y (Q, cl)
+// Tcl Command: 'set_property name constant_high [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid2]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name constant_high [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid2] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "start_valid", true); // Y (Q, cl)
+// Tcl Command: 'set_property name start_valid [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid3]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name start_valid [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid3] 
+// Elapsed time: 10 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "processing_clk_resetn", true); // Y (Q, cl)
+// Tcl Command: 'set_property name processing_clk_resetn [get_bd_pins L5_corrrelator_TRK/s_axis_aresetn1]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name processing_clk_resetn [get_bd_pins L5_corrrelator_TRK/s_axis_aresetn1] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "acq_restn", true); // Y (Q, cl)
+// Tcl Command: 'set_property name acq_restn [get_bd_pins L5_corrrelator_TRK/axis_aresetn]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name acq_restn [get_bd_pins L5_corrrelator_TRK/axis_aresetn] 
+// Elapsed time: 10 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "l5_data_valid", true); // Y (Q, cl)
+// Tcl Command: 'set_property name l5_data_valid [get_bd_pins L5_corrrelator_TRK/s_axis_data_tvalid]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name l5_data_valid [get_bd_pins L5_corrrelator_TRK/s_axis_data_tvalid] 
+// Elapsed time: 10 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "l5_data_data", true); // Y (Q, cl)
+// Tcl Command: 'set_property name l5_data_data [get_bd_pins L5_corrrelator_TRK/s_axis_data_tdata]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name l5_data_data [get_bd_pins L5_corrrelator_TRK/s_axis_data_tdata] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "stop_valid", true); // Y (Q, cl)
+// Tcl Command: 'set_property name stop_valid [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid4]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name stop_valid [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid4] 
+// Elapsed time: 11 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "prog_mem_valid", true); // Y (Q, cl)
+// Tcl Command: 'set_property name prog_mem_valid [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid5]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name prog_mem_valid [get_bd_pins L5_corrrelator_TRK/s_axis_tvalid5] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 437, 448, 1155, 601, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "prog_mem_data", true); // Y (Q, cl)
+// Tcl Command: 'set_property name prog_mem_data [get_bd_pins L5_corrrelator_TRK/s_axis_tdata]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name prog_mem_data [get_bd_pins L5_corrrelator_TRK/s_axis_tdata] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "start_flag", true); // Y (Q, cl)
+// Tcl Command: 'set_property name start_flag [get_bd_pins L5_corrrelator_TRK/In15]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name start_flag [get_bd_pins L5_corrrelator_TRK/In15] 
+// Tcl Command: 'set_property location {4 458 -1925} [get_bd_cells L5_corrrelator_TRK]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {4 458 -1925} [get_bd_cells L5_corrrelator_TRK] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "drop_saamples", true); // Y (Q, cl)
+// Tcl Command: 'set_property name drop_saamples [get_bd_pins L5_corrrelator_TRK/In16]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name drop_saamples [get_bd_pins L5_corrrelator_TRK/In16] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "drop_samples", true); // Y (Q, cl)
+// Tcl Command: 'set_property name drop_samples [get_bd_pins L5_corrrelator_TRK/drop_saamples]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name drop_samples [get_bd_pins L5_corrrelator_TRK/drop_saamples] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "stop_trk", true); // Y (Q, cl)
+// Tcl Command: 'set_property name stop_trk [get_bd_pins L5_corrrelator_TRK/In17]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name stop_trk [get_bd_pins L5_corrrelator_TRK/In17] 
+// Elapsed time: 11 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "init_cntr_lsw", true); // Y (Q, cl)
+// Tcl Command: 'set_property name init_cntr_lsw [get_bd_pins L5_corrrelator_TRK/In18]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name init_cntr_lsw [get_bd_pins L5_corrrelator_TRK/In18] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "init_cntr_msw", true); // Y (Q, cl)
+// Tcl Command: 'set_property name init_cntr_msw [get_bd_pins L5_corrrelator_TRK/In19]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name init_cntr_msw [get_bd_pins L5_corrrelator_TRK/In19] 
+// Elapsed time: 10 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "o_qPilot", true); // Y (Q, cl)
+// Tcl Command: 'set_property name o_qPilot [get_bd_pins L5_corrrelator_TRK/Dout]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name o_qPilot [get_bd_pins L5_corrrelator_TRK/Dout] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "o_qE", true); // Y (Q, cl)
+// Tcl Command: 'set_property name o_qE [get_bd_pins L5_corrrelator_TRK/Dout1]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name o_qE [get_bd_pins L5_corrrelator_TRK/Dout1] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "sample_cntr_msw", true); // Y (Q, cl)
+// Tcl Command: 'set_property name sample_cntr_msw [get_bd_pins L5_corrrelator_TRK/Dout2]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name sample_cntr_msw [get_bd_pins L5_corrrelator_TRK/Dout2] 
+// Elapsed time: 15 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "o_iPilot", true); // Y (Q, cl)
+// Tcl Command: 'set_property name o_iPilot [get_bd_pins L5_corrrelator_TRK/Dout3]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name o_iPilot [get_bd_pins L5_corrrelator_TRK/Dout3] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "o_qP", true); // Y (Q, cl)
+// Tcl Command: 'set_property name o_qP [get_bd_pins L5_corrrelator_TRK/Dout4]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name o_qP [get_bd_pins L5_corrrelator_TRK/Dout4] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "o_qL", true); // Y (Q, cl)
+// Tcl Command: 'set_property name o_qL [get_bd_pins L5_corrrelator_TRK/Dout5]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name o_qL [get_bd_pins L5_corrrelator_TRK/Dout5] 
+// Elapsed time: 10 seconds
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "sample_cntr_lsw", true); // Y (Q, cl)
+// Tcl Command: 'set_property name sample_cntr_lsw [get_bd_pins L5_corrrelator_TRK/Dout6]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name sample_cntr_lsw [get_bd_pins L5_corrrelator_TRK/Dout6] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "oiL", true); // Y (Q, cl)
+// Tcl Command: 'set_property name oiL [get_bd_pins L5_corrrelator_TRK/Dout7]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name oiL [get_bd_pins L5_corrrelator_TRK/Dout7] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "o_iL", true); // Y (Q, cl)
+// Tcl Command: 'set_property name o_iL [get_bd_pins L5_corrrelator_TRK/oiL]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name o_iL [get_bd_pins L5_corrrelator_TRK/oiL] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "o_iP", true); // Y (Q, cl)
+// Tcl Command: 'set_property name o_iP [get_bd_pins L5_corrrelator_TRK/Dout8]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name o_iP [get_bd_pins L5_corrrelator_TRK/Dout8] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "results_ready", true); // Y (Q, cl)
+// Tcl Command: 'set_property name results_ready [get_bd_pins L5_corrrelator_TRK/m_axis_tvalid]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name results_ready [get_bd_pins L5_corrrelator_TRK/m_axis_tvalid] 
+setText(PAResourceQtoS.RSBBlockPortPropPanels_NAME, "o_iE", true); // Y (Q, cl)
+// Tcl Command: 'set_property name o_iE [get_bd_pins L5_corrrelator_TRK/Dout9]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name o_iE [get_bd_pins L5_corrrelator_TRK/Dout9] 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// by (cl):  Save Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : </home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd>  Wrote  : </home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ui/bd_c954508f.ui>  
+dismissDialog("Save Design"); // by (cl)
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,387 MB. GUI used memory: 83 MB. Current time: 3/17/22, 7:22:12 PM GMT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Generate Block Design]", 8, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_RSB_DESIGN
+// aI (cl): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Cancel"); // a (aI)
+dismissDialog("Generate Output Products"); // aI (cl)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK (aH, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_top (system_top.v)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // by (cl)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,454 MB (+18059kb) [00:09:52]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,450 MB. GUI used memory: 72 MB. Current time: 3/17/22, 7:22:32 PM GMT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [Device 21-403] Loading part xczu11eg-ffvf1517-2-i 
+// [Engine Memory]: 1,654 MB (+134385kb) [00:10:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,517 MB. GUI used memory: 69 MB. Current time: 3/17/22, 7:23:07 PM GMT
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 2,589 MB (+893701kb) [00:10:38]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,650 MB. GUI used memory: 68 MB. Current time: 3/17/22, 7:23:22 PM GMT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [xilinx.com:ip:fir_compiler:7.2-913] /fir_downsample_dec22 Data_Sign has been set to manual on the GUI. It will not be updated during validation with a propagated value. INFO: [xilinx.com:ip:fir_compiler:7.2-913] /fir_downsample_dec22 Data_Width has been set to manual on the GUI. It will not be updated during validation with a propagated value. INFO: [xilinx.com:ip:fir_compiler:7.2-913] /fir_downsample_dec22 Data_Fractional_Bits has been set to manual on the GUI. It will not be updated during validation with a propagated value. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : </home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/synth/system.v 
+// Tcl Message: VHDL Output written to : /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/sim/system.v VHDL Output written to : /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/hdl/system_wrapper.v 
+// [Engine Memory]: 2,837 MB (+123380kb) [00:10:53]
+// Tcl Message: INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_ps8 . INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_rstgen . INFO: [BD 41-1029] Generation completed for the IP Integrator block spi0_csn_concat . INFO: [BD 41-1029] Generation completed for the IP Integrator block VCC_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block GND_1 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_sysid_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rom_sys_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_concat_intc_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_concat_intc_1 . 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ip/system_ddr4_1_0/bd_0/hw_handoff/system_ddr4_1_0_microblaze_mcs.hwh Generated Block Design Tcl file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ip/system_ddr4_1_0/bd_0/hw_handoff/system_ddr4_1_0_microblaze_mcs_bd.tcl Generated Hardware Definition File /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ip/system_ddr4_1_0/bd_0/synth/system_ddr4_1_0_microblaze_mcs.hwdef 
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block dma_clk_wiz . INFO: [BD 41-1029] Generation completed for the IP Integrator block sys_dma_rstgen . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_cpu_interconnect/xbar . 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,898 MB. GUI used memory: 69 MB. Current time: 3/17/22, 7:24:12 PM GMT
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ip/system_axi_hp0_interconnect_0/bd_0/hw_handoff/system_axi_hp0_interconnect_0.hwh Generated Block Design Tcl file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ip/system_axi_hp0_interconnect_0/bd_0/hw_handoff/system_axi_hp0_interconnect_0_bd.tcl Generated Hardware Definition File /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/ip/system_axi_hp0_interconnect_0/bd_0/synth/system_axi_hp0_interconnect_0.hwdef 
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 2,994 MB (+15947kb) [00:11:41]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/hw_handoff/system.hwh Generated Block Design Tcl file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl Generated Hardware Definition File /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/synth/system.hwdef 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Mar 17 19:24:26 2022] Launched synth_1... Run output will be captured here: /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/synth_1/runme.log [Thu Mar 17 19:24:26 2022] Launched impl_1... Run output will be captured here: /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:01:48 ; elapsed = 00:02:00 . Memory (MB): peak = 11490.090 ; gain = 0.000 ; free physical = 7008 ; free virtual = 12508 
+// aY (cl): Launch Run Critical Messages: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 133 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (aY)
+dismissDialog("Launch Run Critical Messages"); // aY (cl)
+// Elapsed time: 42 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: write_hwdef -force  -file /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.sdk/system_top.hdf 
+// Elapsed time: 418 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,065 MB. GUI used memory: 82 MB. Current time: 3/17/22, 7:54:12 PM GMT
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 2311 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// HMemoryUtils.trashcanNow. Engine heap size: 3,058 MB. GUI used memory: 79 MB. Current time: 3/17/22, 8:24:12 PM GMT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,074 MB. GUI used memory: 78 MB. Current time: 3/17/22, 8:40:07 PM GMT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,074 MB. GUI used memory: 78 MB. Current time: 3/17/22, 9:10:07 PM GMT
+// WARNING: HEventQueue.dispatchEvent() is taking  142888 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  218511 ms.
+// Elapsed time: 4581 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// by (cl):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design {/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.srcs/sources_1/bd/system/system.bd} 
+dismissDialog("Open Block Design"); // by (cl)
+// Elapsed time: 13 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 19 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 3,096 MB. GUI used memory: 83 MB. Current time: 3/17/22, 9:28:36 PM GMT
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 37 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 69 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  1701 ms.
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 327 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// [Engine Memory]: 3,301 MB (+164729kb) [02:24:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,163 MB. GUI used memory: 83 MB. Current time: 3/17/22, 9:36:52 PM GMT
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// O (cl):  Re-customize IP : addNotify
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 120 seconds
+dismissDialog("Re-customize IP"); // O (cl)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Channel Specification", 1); // cT (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Implementation", 2); // cT (E, r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// [GUI Memory]: 167 MB (+2389kb) [02:26:45]
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 22 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Tcl Command: 'set_property location {21 16300 3725} [get_bd_cells acq_l5_data_slice]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {21 16300 3725} [get_bd_cells acq_l5_data_slice] 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cl): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 193 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 19 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 406 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 15 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Elapsed time: 14 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1106, 170, 1155, 621, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // ae (an, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k (cl): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// by (cl):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name acquisition_axis_v1_0_project -directory /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.tmp/acquisition_axis_v1_0_project /home/badger/work/Capstone/ip_repo/acquisition_AXIS/acquisition_AXIS.srcs/sources_1/component.xml 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1462 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/badger/Downloads/Vivado/2019.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// 'i' command handler elapsed time: 5 seconds
+// [GUI Memory]: 187 MB (+12429kb) [02:38:26]
+dismissDialog("Edit in IP Packager"); // by (cl)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (O, cl)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (O, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,332 MB. GUI used memory: 110 MB. Current time: 3/17/22, 9:51:07 PM GMT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceOtoP.PackagerStepContentPanel_MESSAGES, "1"); // h (p, cl)
+selectButton(PAResourceOtoP.PackagerStepContentPanel_MESSAGES, "1"); // h (p, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, acquisition_axis (acquisition_axis.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, acquisition_axis (acquisition_axis.v), raw_signal_bram_inst : raw_signal_bram (raw_signal_bram.xci)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 44 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - acquisition_axis", 1); // k (j, cl)
+closeMainWindow("acquisition_axis_v1_0_project - [/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.tmp/acquisition_axis_v1_0_project/acquisition_axis_v1_0_project.xpr] - Vivado 2019.1"); // cl
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (cl): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Close Project : addNotify
+dismissDialog("Close Project"); // A (cl)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,330 MB. GUI used memory: 109 MB. Current time: 3/17/22, 9:51:59 PM GMT
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // by (cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 327 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 177 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Elapsed time: 12 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 79 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 326 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Elapsed time: 11 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 592, 251, 1155, 621, false, false, false, true, false); // gl (k, cl) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k (cl): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// by (cl):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1400 ms.
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name galileo_e1_correlator_v1_0_project -directory /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.tmp/galileo_e1_correlator_v1_0_project /home/badger/work/Capstone/ip_repo/galileo_e1_correlator/galileo_e1_correlator.srcs/sources_1/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/badger/Downloads/Vivado/2019.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// 'i' command handler elapsed time: 4 seconds
+dismissDialog("Edit in IP Packager"); // by (cl)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, galileo_e1_correlator (galileo_e1_correlator.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, galileo_e1_correlator (galileo_e1_correlator.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 12 seconds
+selectCodeEditor("galileo_e1_correlator.v", 365, 227); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, galileo_e1_correlator (galileo_e1_correlator.v), Galileo_Resampler_TRK_inst : Galileo_E1_Resampler_TRK_0 (Galileo_E1_Resampler_TRK_0.xci)]", 6, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, galileo_e1_correlator (galileo_e1_correlator.v), Galileo_Resampler_TRK_inst : Galileo_E1_Resampler_TRK_0 (Galileo_E1_Resampler_TRK_0.xci)]", 6, false, false, false, false, true, false); // B (F, cl) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k (cl): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// by (cl):  Edit in IP Packager : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1391 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name E1_6_resampler_v1_0_project -directory /home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.tmp/galileo_e1_correlator_v1_0_project/galileo_e1_correlator_v1_0_project.tmp/E1_6_resampler_v1_0_project /home/badger/work/Capstone/ip_repo/E1_resample6/E1_resample6.srcs/sources_1/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/badger/Downloads/Vivado/2019.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-795] Syncing license key meta-data 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// 'i' command handler elapsed time: 4 seconds
+dismissDialog("Edit in IP Packager"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,406 MB. GUI used memory: 131 MB. Current time: 3/17/22, 10:08:22 PM GMT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, E1_6_resampler (E1_6_resampler.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, E1_6_resampler (E1_6_resampler.v), genblk1[0].accum_i_inst : track_accumulator_0 (track_accumulator_0.xci)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 106 seconds
+closeMainWindow("E1_6_resampler_v1_0_project - [/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.tmp/galileo_e1_correlator_v1_0_project/galileo_e1_correlator_v1_0_project.tmp/E1_6_resampler_v1_0_project/E1_6_resampler_v1_0_project.xpr] - Vivado 2019.1"); // cl
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (cl): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // A (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,406 MB. GUI used memory: 129 MB. Current time: 3/17/22, 10:10:15 PM GMT
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // by (cl)
+// Elapsed time: 10 seconds
+closeMainWindow("galileo_e1_correlator_v1_0_project - [/home/badger/work/Capstone/hdl/projects/adrv9009zu11eg/adrv2crr_fmc/adrv9009zu11eg.tmp/galileo_e1_correlator_v1_0_project/galileo_e1_correlator_v1_0_project.xpr] - Vivado 2019.1"); // cl
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (cl): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // A (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,340 MB. GUI used memory: 122 MB. Current time: 3/17/22, 10:10:28 PM GMT
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // by (cl)
+// Elapsed time: 979 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // B (f, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,334 MB. GUI used memory: 116 MB. Current time: 3/17/22, 10:26:49 PM GMT

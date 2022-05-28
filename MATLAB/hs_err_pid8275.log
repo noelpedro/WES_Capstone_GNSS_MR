@@ -1,0 +1,9 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/home/badger/Downloads/Vivado/2019.1/tps/lnx64/jre9.0.4/lib//server/libjvm.so(+0xb6aadb) [0x7fe3782a6adb]
+/home/badger/Downloads/Vivado/2019.1/tps/lnx64/jre9.0.4/lib//server/libjvm.so(JVM_handle_linux_signal+0xbb) [0x7fe3782abe1b]
+/home/badger/Downloads/Vivado/2019.1/tps/lnx64/jre9.0.4/lib//server/libjvm.so(+0xb647b8) [0x7fe3782a07b8]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3efd0) [0x7fe3bf869fd0]
+[0x1fd70f58]
