@@ -1,1 +1,1 @@
-This moduule generates a pulse every time time the length samples is reached.
+This moduule generates a pulse every time time the interval length samples is reached. It counts the number of valid signals up to interval length samples then generates a pulse to be received by PS. 
